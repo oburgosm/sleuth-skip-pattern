@@ -1,0 +1,10 @@
+spring:
+  webflux:
+    base-path: /demo
+management:
+  server:
+    port: 8081
+    base-path: /demo
+  endpoints:
+    web:
+      base-path: /actuator
