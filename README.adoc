@@ -1,0 +1,13 @@
+Application for test sleuth with skip pattern
+
+To run application:
+
+First, start Zipkin with docker, for example
+
+After, start this application
+
+----
+mvn spring:boot run
+----
+
+Finally, launch and actuator endpoint call, like `http://localhost:8081/demo/actuator/health` and check if span for this call is on Zipkin
